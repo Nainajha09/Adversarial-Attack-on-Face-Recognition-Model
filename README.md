@@ -8,16 +8,14 @@ Features
 
 -Face Recognition Model: Utilizes facenet-pytorch for feature extraction.
 
--Adversarial Attacks: Implements FGSM and DeepFool attacks using foolbox.
+-Adversarial Attacks: Implements FGSM, DeepFool, PGD, BIM attacks using foolbox.
 
--Embedding Similarity Analysis: Measures the impact of attacks using cosine similarity between original and adversarial embeddings.
+-Embedding Similarity Analysis: Measures the impact of attacks using cosine similarity,L2 distance,SSIM,PSNR and Perturbation method between original and adversarial embeddings.
 
 -Visualization: Displays perturbed images to highlight the changes introduced by adversarial attacks.
 
 Results
 
--The adversarial examples successfully fooled the FaceNet model, reducing cosine similarity scores.
+-The adversarial examples, except Deepfool successfully fooled the FaceNet model, reducing similarity scores.
 
--FGSM resulted in small perturbations but was noticeable in high-confidence cases.
 
--DeepFool generated more optimized perturbations with a lower attack budget.
