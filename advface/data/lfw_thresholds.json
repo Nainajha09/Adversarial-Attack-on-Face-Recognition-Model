@@ -1,0 +1,20 @@
+{
+ "facenet": {
+  "threshold": 0.524,
+  "bal_acc": 0.9681208053691275,
+  "tpr": 0.94,
+  "tnr": 0.996241610738255,
+  "threshold_far1": 0.593,
+  "n_genuine": 150,
+  "n_impostor": 44700
+ },
+ "arcface": {
+  "threshold": 0.767,
+  "bal_acc": 0.9691387024608501,
+  "tpr": 0.94,
+  "tnr": 0.9982774049217003,
+  "threshold_far1": 0.8140000000000001,
+  "n_genuine": 150,
+  "n_impostor": 44700
+ }
+}

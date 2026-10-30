@@ -1,0 +1,10 @@
+torch>=2.0
+torchvision
+facenet-pytorch==2.6.0   # install with --no-deps to keep your torch version
+onnxruntime
+scikit-image
+scipy
+pandas
+matplotlib
+pytorch-fid
+lpips
